@@ -10,7 +10,7 @@ class User
     {
         return this->name.' '.this->lastName;
     }
-}
+}   
 
 
 ?>
