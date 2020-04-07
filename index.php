@@ -8,9 +8,10 @@ class User
 
     public function showFullName()
     {
-        return this->name.' '.this->lastName;
+        return $this->name . ' ' . $this->lastName;
     }
-}   
+}
 
+$objectMadeFromUserClass = new User();
 
-?>
+echo $objectMadeFromUserClass->showFullName();
