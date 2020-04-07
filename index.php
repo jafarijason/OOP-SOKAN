@@ -1,17 +1,18 @@
 <?php
 
-class User
-{
-    public $name = "Jason";
-    public $lastName = "Jafari";
-    public $dob = 1985;
+//Class and Object
 
-    public function showFullName()
-    {
-        return $this->name . ' ' . $this->lastName;
-    }
-}
+require_once "init.php";
+
 
 $objectMadeFromUserClass = new User();
-
 echo $objectMadeFromUserClass->showFullName();
+echo "<br>";
+$objectMadeFromUser2Class = new User2();
+echo $objectMadeFromUser2Class->showFullName();
+echo "<br>";
+$objectMadeFromUser3Class = new User3();
+echo $objectMadeFromUser3Class->showFullName();
+echo "<br>";
+
+ 
